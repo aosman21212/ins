@@ -7,7 +7,7 @@ Uses only PIL (Pillow). No external dependencies beyond Pillow.
 import os
 from PIL import Image, ImageDraw, ImageFont
 
-OUTPUT_DIR = "/home/odoo/src/user/insurance_management/static/description"
+OUTPUT_DIR = "/home/odoo/src/user/leapai_insurance_management/static/description"
 FONT_REG = "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf"
 FONT_BOLD = "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf"
 

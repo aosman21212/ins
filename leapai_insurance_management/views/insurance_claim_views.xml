@@ -23,13 +23,13 @@
                                 type="object"
                                 class="btn-success"
                                 invisible="state != 'to_approve'"
-                                groups="insurance_management.group_insurance_manager"/>
+                                groups="leapai_insurance_management.group_insurance_manager"/>
                         <button name="action_reject"
                                 string="Reject"
                                 type="object"
                                 class="btn-danger"
                                 invisible="state not in ['submitted', 'to_approve']"
-                                groups="insurance_management.group_insurance_manager"/>
+                                groups="leapai_insurance_management.group_insurance_manager"/>
                         <button name="action_reset"
                                 string="Reset to Draft"
                                 type="object"
@@ -38,7 +38,7 @@
                                 string="Create Settlement Bill"
                                 type="object"
                                 invisible="state != 'approved'"
-                                groups="insurance_management.group_insurance_manager"/>
+                                groups="leapai_insurance_management.group_insurance_manager"/>
                         <field name="state" widget="statusbar"
                                statusbar_visible="draft,submitted,to_approve,approved"/>
                     </header>

@@ -6,8 +6,8 @@
             id="menu_insurance_root"
             name="Insurance"
             sequence="100"
-            web_icon="insurance_management,static/description/icon.png"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            web_icon="leapai_insurance_management,static/description/icon.png"
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <!-- Dashboard -->
         <menuitem
@@ -16,7 +16,7 @@
             parent="menu_insurance_root"
             action="action_insurance_policy_kanban"
             sequence="10"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <!-- Policies -->
         <menuitem
@@ -24,7 +24,7 @@
             name="Policies"
             parent="menu_insurance_root"
             sequence="20"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <menuitem
             id="menu_insurance_all_policies"
@@ -32,7 +32,7 @@
             parent="menu_insurance_policies"
             action="action_insurance_policy"
             sequence="21"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <menuitem
             id="menu_insurance_my_policies"
@@ -40,7 +40,7 @@
             parent="menu_insurance_policies"
             action="action_insurance_my_policy"
             sequence="22"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <!-- Claims -->
         <menuitem
@@ -48,7 +48,7 @@
             name="Claims"
             parent="menu_insurance_root"
             sequence="30"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <menuitem
             id="menu_insurance_all_claims"
@@ -56,7 +56,7 @@
             parent="menu_insurance_claims"
             action="action_insurance_claim"
             sequence="31"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <menuitem
             id="menu_insurance_my_claims"
@@ -64,7 +64,7 @@
             parent="menu_insurance_claims"
             action="action_insurance_my_claim"
             sequence="32"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <!-- Agents -->
         <menuitem
@@ -73,7 +73,7 @@
             parent="menu_insurance_root"
             action="action_insurance_agent"
             sequence="40"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <!-- Customers -->
         <menuitem
@@ -82,7 +82,7 @@
             parent="menu_insurance_root"
             action="action_insurance_customers"
             sequence="50"
-            groups="insurance_management.group_insurance_user,insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_user,leapai_insurance_management.group_insurance_manager"/>
 
         <!-- Configuration -->
         <menuitem
@@ -90,7 +90,7 @@
             name="Configuration"
             parent="menu_insurance_root"
             sequence="100"
-            groups="insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_manager"/>
 
         <menuitem
             id="menu_insurance_categories"
@@ -98,7 +98,7 @@
             parent="menu_insurance_configuration"
             action="action_insurance_category"
             sequence="101"
-            groups="insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_manager"/>
 
         <menuitem
             id="menu_insurance_subcategories"
@@ -106,7 +106,7 @@
             parent="menu_insurance_configuration"
             action="action_insurance_subcategory"
             sequence="102"
-            groups="insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_manager"/>
 
         <menuitem
             id="menu_insurance_terms"
@@ -114,6 +114,6 @@
             parent="menu_insurance_configuration"
             action="action_insurance_term"
             sequence="103"
-            groups="insurance_management.group_insurance_manager"/>
+            groups="leapai_insurance_management.group_insurance_manager"/>
     </data>
 </odoo>

@@ -5,8 +5,8 @@
             <field name="name">Insurance Claim</field>
             <field name="model">insurance.claim</field>
             <field name="report_type">qweb-pdf</field>
-            <field name="report_name">insurance_management.report_insurance_claim_template</field>
-            <field name="report_file">insurance_management.report_insurance_claim_template</field>
+            <field name="report_name">leapai_insurance_management.report_insurance_claim_template</field>
+            <field name="report_file">leapai_insurance_management.report_insurance_claim_template</field>
             <field name="binding_model_id" ref="model_insurance_claim"/>
             <field name="binding_type">report</field>
             <field name="paperformat_id" ref="base.paperformat_euro"/>
